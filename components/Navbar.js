@@ -7,16 +7,16 @@ import utils from './utils.js';
 const Navbar = ( {navigation} ) => {
   return (
     <View style={[styles.navArea]}>
-      <View style={[styles.navItems, utils.border('rgba(0, 0, 0, 0.2)', 0.2)]}>
+      <View style={[styles.navItems]}>
         <TouchableOpacity
           style={[styles.navItem]}
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('Discover')}
         >
           <Image style={styles.icon} source={require('../assets/home.png')}/>
         </TouchableOpacity>
         <TouchableOpacity
           style={[styles.navItem]}
-          onPress={() => navigation.navigate('BucketList')}
+          onPress={() => navigation.navigate('My Bucket List')}
         >
           <Image style={styles.logo} source={require('../assets/bucket_pink.png')}/>
         </TouchableOpacity>
