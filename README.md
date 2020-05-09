@@ -1,3 +1,3 @@
 # Bucket.io
 
-A side project that I have been working on. It's a bucket list app to connect people with similar bucket list items!
+Currently building a bucket list app to connect people with similar things on their bucket lists, using React Native and Expo. 
